@@ -1,0 +1,30 @@
+digital_ocean_token			        =""
+aws_access_token                    =""
+aws_secret_key                      =""
+
+user_info                          ={
+                                        "private_key_path"  =""
+                                        "login"             =""
+                                        "tag_task_name"     =""
+                                        "tag_user_email"    =""
+                                        "pub_ssh_key_name"  =""
+                                        "pub_ssh_key_value" =""
+                                    }
+
+list_application_servers            =["app1", "app2"]
+server_parameters                   ={         
+                                        "image"         = "ubuntu-20-04-x64"
+                                        "region"        = "fra1"
+                                        "size"          = "s-1vcpu-1gb"
+                                        "monitoring"    = true
+                                    }
+group_name                          ={
+                                        "dev"  = "dev"
+                                        "test" = "test"
+                                        "prod" = "prod"
+                                    }
+
+subvendor                           ={
+                                        "pub_ssh_key"   = ""
+                                        "dns_base_zone" = ""
+                                    }

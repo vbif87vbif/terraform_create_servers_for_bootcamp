@@ -1,0 +1,2 @@
+%{ for idx, dnsitem in dns }
+${idx+1}:   ${dnsitem}.${rebrain_dns_zone}  ${ip[idx]}  ${pass[idx]}%{ endfor ~}
